@@ -1,0 +1,16 @@
+includes:
+	- vendor/phpstan/phpstan/conf/bleedingEdge.neon
+
+parameters:
+	reportUnmatchedIgnoredErrors: true
+	checkMissingIterableValueType: true
+	checkGenericClassInNonGenericObjectType: true
+	checkMissingCallableSignature: true
+	implicitThrows: false
+	level: max
+	paths:
+		- src
+	exceptions:
+		check:
+			missingCheckedExceptionInThrows: true
+			tooWideThrowType: true

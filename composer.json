@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/phpstan-assert-exception",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "patrick",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "phpstan/phpstan": "^0.12.99"
+  }
+}
